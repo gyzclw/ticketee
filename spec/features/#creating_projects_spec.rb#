@@ -4,7 +4,7 @@ RSpec.feature "User can create new Projects" do
     visit "/"
     click_link "New Project"
   end
-  scenario "with valib attributes" do
+ s scenario "with valib attributes" do
     fill_in "Name",with: "Sublime Text 3"
     fill_in "Description",with: "A text editor for everyone"
     click_button "Create Project"
