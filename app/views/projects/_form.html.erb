@@ -6,16 +6,14 @@
             <ul>
                 <% @project.errors.full_messages.each do |msg| %>
                     <li><%= msg %></li>
-                <% end %>
-
+						<% end %>
             </ul>
         </div>
     <% end %>
     <p>
         <%= f.label :name %><br>
         <%= f.text_field :name %>
-    </p>
-
+		</p>
     <p>
         <%= f.label :description %> <br>
         <%= f.text_field :description %>
