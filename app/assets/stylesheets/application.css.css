@@ -1,0 +1,53 @@
+/*
+Error: File to import not found or unreadable: bootstrap-sprockets.
+        on line 1 of /Users/hjg/Documents/source/opensource/CODING/the_m_world/ticketee/app/assets/stylesheets/application.css.scss
+
+1: @import "bootstrap-sprockets";
+2: @import "bootstrap";
+3: @import "font-awesome";
+4: .page-header {
+5:     position: relative;
+6:     padding-bottom: 0px;
+
+Backtrace:
+/Users/hjg/Documents/source/opensource/CODING/the_m_world/ticketee/app/assets/stylesheets/application.css.scss:1
+/Users/hjg/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/Users/hjg/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/import_node.rb:45:in `import'
+/Users/hjg/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/import_node.rb:28:in `imported_file'
+/Users/hjg/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/import_node.rb:37:in `css_import?'
+/Users/hjg/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:313:in `visit_import'
+/Users/hjg/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/hjg/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Users/hjg/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+/Users/hjg/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/Users/hjg/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+/Users/hjg/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Users/hjg/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/hjg/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/hjg/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/hjg/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+/Users/hjg/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Users/hjg/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+/Users/hjg/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/hjg/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+/Users/hjg/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/hjg/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:159:in `visit'
+/Users/hjg/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/hjg/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/hjg/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Users/hjg/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/Users/hjg/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/Users/hjg/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:391:in `run'
+/Users/hjg/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Users/hjg/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/exec/base.rb:52:in `parse'
+/Users/hjg/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/exec/base.rb:19:in `parse!'
+/Users/hjg/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/bin/sass:13:in `<top (required)>'
+/Users/hjg/.rvm/gems/ruby-2.2.1/bin/sass:23:in `load'
+/Users/hjg/.rvm/gems/ruby-2.2.1/bin/sass:23:in `<main>'
+/Users/hjg/.rvm/gems/ruby-2.2.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/hjg/.rvm/gems/ruby-2.2.1/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: bootstrap-sprockets.\A         on line 1 of /Users/hjg/Documents/source/opensource/CODING/the_m_world/ticketee/app/assets/stylesheets/application.css.scss\A \A 1: @import \"bootstrap-sprockets\";\A 2: @import \"bootstrap\";\A 3: @import \"font-awesome\";\A 4: .page-header {\A 5:     position: relative;\A 6:     padding-bottom: 0px;"; }
